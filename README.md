@@ -1,19 +1,48 @@
-# education2.0
+这是张馨艺的本科毕设前端《教育数据可视化分析系统的设计与实现》
 
-## Project setup
-```
-npm install
-```
+（Design and Implementation of Educational Data Visualization System）
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 实现
+![image](https://user-images.githubusercontent.com/29750316/154604986-804ebd9a-2eb5-4984-8381-28a837bac9d2.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![image](https://user-images.githubusercontent.com/29750316/154605011-72721ac0-bbc2-4818-9db7-0f487b1ee223.png)
+
+## 简介
+
+提出一个针对传统教育环境的教育数据可视分析系统，通过教育数据分析和可视化工作，显示学生画像、行为模式及特征、考试分数、发展潜力方向等重要的信息，可以帮助教师更好地掌握数据信息，更直观地了解学生的个体和总体情况，识别需要特别注意的学习者，及时掌握学生发展情况，包括成绩趋势、行为习惯、能力和兴趣等。
+
+## 数据
+所采用的教育数据来自阿里云天池大赛“数智教育”数据可视化创新大赛，大赛提供包括教师信息、学生信息、考试信息、考勤信息等在内的7张CSV表，皆为浙江宁波效实中学近几年教学活动和学生活动产生的真实数据。
+
+链接：https://tianchi.aliyun.com/competition/entrance/231704/information
+
+## 分析任务
+提出一个以班级以及班级中的个体为分析单位、主要针对学生成绩数据的、面向教师/班主任的教育数据可视化系统，系统拟解决需求和问题分为以下四个方面：	
+
+R1：直观地了解班级总体成绩情况。要从原始数据中对于班级众多学生、学生众多次考试、考试众多门科目的成绩情况有个全面的了解，是一件很困难的事情，但是却对了解班级成绩情况、提出教学干预、改进教学重心至关重要。因此，我们希望通过可视化，对以上多维度信息进行总结概览，提供对班级成绩情况的总体体会。
+
+R2：快速地发现班级中需要特别关注的个体。通过识别班级中成绩走向异常、亟待教学干预的个体，能够帮助教师及时对需要的学生提供教学辅导，发现需要重点帮助的个体，针对不同个体的特点提出和改进个性化教学方案。
+
+R3：全面了解班级中每个个体的详细情况。掌握每个个体的详细情况是发现个体特点的必要前提。
+
+R4：掌握班级个体的总体成绩发展趋势。个体成绩在各个维度上的发展趋势，包括科目以及时间上的发展趋势，反映了个体的发展趋势，方便我们对个体的当前成绩情况和未来发展趋势有个直观地了解。
+
+## 技术栈
+* D3.js
+* Vue
+* ElementUI
+* MySql
+* Node.js
+* Express
+
+
+
+## 运行(run)
+
+### npm install
+
+### npm run serve
+
+
+### npm run build
